@@ -83,7 +83,7 @@ func create() -> [Polygon]{
 let polygons = create()
 
 func draw (shape: Polygon) {
-    print("(shape.name) has (shape.sides). Perimeter is (shape.perimeter().description). Area is (shape.area().description).")
+    print("\(shape.name) has \(shape.sides) sides. Perimeter is \(shape.perimeter().description). Area is \(shape.area().description).")
 }
 
 polygons.forEach { shape in
