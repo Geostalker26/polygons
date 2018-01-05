@@ -29,7 +29,7 @@ class Triangle:Polygon {
     
     func area() -> Float {
         
-        return (side1*side2)*2
+        return (side1*side2)/2
         
     }
 }
